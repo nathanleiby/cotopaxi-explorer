@@ -1,5 +1,7 @@
 # cotopaxi-explorer
 
+Latest results visible at: http://www.nathanleiby.com/cotopaxi-explorer/
+
 ## Running
 
 Install deps:
