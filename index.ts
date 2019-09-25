@@ -28,7 +28,8 @@ import * as fs from "fs";
   const output = Array.from(items).join("\n");
 
   console.log("writing output");
-  fs.writeFileSync(`images-${+new Date()}.html`, output);
+  fs.writeFileSync(`output/images-latest.html`, output);
+  fs.writeFileSync(`output/images-${+new Date()}.html`, output);
 
   await browser.close();
 })();
